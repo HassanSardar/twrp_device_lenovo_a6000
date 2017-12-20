@@ -92,7 +92,9 @@ TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_INCLUDE_CRYPTO := true
 TW_THEME := portrait_hdpi
 TW_EXCLUDE_SUPERSU := true
-TW_INCLUDE_NTFS_3G := true
+#TW_INCLUDE_NTFS_3G := true
+TW_NEW_ION_HEAP := true
+BOARD_NO_SECURE_DISCARD := true
 
 # Default brightness for TWRP
 TW_DEFAULT_BRIGHTNESS := 120
